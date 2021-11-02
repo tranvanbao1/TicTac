@@ -44,13 +44,13 @@ function App() {
       let winning = true;
       current.forEach((index)=> {
         if(board[index] != firstPlayer) {
-          winning = false
+          winning = false;
         }
       })
       if(winning) {
         setWin({winner:player,state:"Won"})
-      } 
-    })
+      }  
+    }) 
   }
 
   const checkIfTie= ()=> {
