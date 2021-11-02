@@ -49,7 +49,7 @@ function App() {
       })
       if(winning) {
         setWin({winner:player,state:"Won"})
-      } 
+      }
     })
   }
 
